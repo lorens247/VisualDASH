@@ -72,27 +72,9 @@ Upon successfully installing the required Python packages, you can proceed to se
     ├── login.html
     ├── settings.html
     └── register.html 
-```
-    
-├── README.md
-├── app.py
-├── requirements.txt
-├── static
-│   ├── css
-│   ├── data
-│   ├── image
-│   └── js
-└── templates
-    ├── about.html 
-    ├── dashboard.html
-    ├── index.html
-    ├── login.html
-    ├── settings.html
-    └── register.html 
-    
-## Example
+```    
+## Screenshots
 
-![Demo](url)
 
 
 ## Author
