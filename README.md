@@ -24,7 +24,7 @@ $ git clone https://github.com/lorens247/VisualDASH.git
 Begin by creating a virtual Python environment:
 
 ```
-python -m venv venv
+python3 -m venv venv
 ```
 
 
