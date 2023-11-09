@@ -55,7 +55,25 @@ pip freeze > requirements.txt
 ```
 Upon successfully installing the required Python packages, you can proceed to set the project file structure and required files as shown below:
 ```
-.
+
+```
+├── README.md
+├── app.py
+├── requirements.txt
+├── static
+│   ├── css
+│   ├── data
+│   ├── image
+│   └── js
+└── templates
+    ├── about.html 
+    ├── dashboard.html
+    ├── index.html
+    ├── login.html
+    ├── settings.html
+    └── register.html 
+```
+    
 ├── README.md
 ├── app.py
 ├── requirements.txt
@@ -72,8 +90,6 @@ Upon successfully installing the required Python packages, you can proceed to se
     ├── settings.html
     └── register.html 
     
-```
-
 ## Example
 
 ![Demo](url)
