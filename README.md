@@ -67,6 +67,7 @@ Upon successfully installing the required Python packages, you can proceed to se
 │   └── js
 └── templates
     ├── about.html 
+    ├── base.html
     ├── dashboard.html
     ├── index.html
     ├── login.html
