@@ -1,6 +1,113 @@
 {% extends "base.html" %}
 
+{% block title %}About{% endblock %}
+
 {% block content %}
-<h1>About VisualDash</h1>
-<p>Explore Your World in Real Time with VisualDash.</p>
+    <!-- About Content -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center">About Our Project</h2>
+                    <p>
+                        Our project, VisualDASH, was born out of a shared passion for data visualization
+                        and the desire to create a platform that provides a seamless and interactive
+                        experience for users to explore and analyze data.
+                    </p>
+                    <p>
+                        The journey began with a vision to transform complex datasets into meaningful
+                        insights. We wanted to empower individuals and businesses to make informed decisions
+                        by presenting data in an engaging and accessible way.
+                    </p>
+                    <p>
+                        Inspired by real-world challenges, VisualDASH became more than just a project – it
+                        became a journey of learning, collaboration, and innovation. We embraced the
+                        opportunity to combine our technical skills with creativity to deliver a product
+                        that goes beyond expectations.
+                    </p>
+                    <p>
+                        This project is part of our portfolio at Holberton School, representing our
+                        commitment to excellence in software engineering. It showcases our ability to
+                        conceptualize, design, and implement a full-fledged application that adds value
+                        to the field of data visualization.
+                    </p>
+                    <p class="text-center">
+                        <strong>This is more than code; it's the story of our growth and dedication.</strong>
+                    </p>
+                    <hr>
+
+                    <h2 class="text-center">Meet the Team</h2>
+
+                    <!-- Team Members -->
+                    <div class="row text-center">
+                        <!-- Team Member 1 -->
+                        <div class="col-md-4">
+                            <img src="static/image/logo2.png" class="rounded-circle" alt="Team Member 1" width="150" height="150">
+                            <h4>Abdi Ali</h4>
+                            <p class="text-muted">Software Engineer</p>
+                            <!-- LinkedIn, GitHub, Twitter links -->
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/member1/" target="_blank"><i class="bi-linkedin"></i></a>
+                                <a href="https://github.com/member1" target="_blank"><i class="bi-github"></i></a>
+                                <a href="https://twitter.com/member1" target="_blank"><i class="bi-twitter"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 2 (Add more members as needed) -->
+                        <div class="col-md-4">
+                            <img src="static/image/logo2.png" class="rounded-circle" alt="Team Member 1" width="150" height="150">
+                            <h4>Ademola Ayinde</h4>
+                            <p class="text-muted">Software Engineer</p>
+                            <!-- LinkedIn, GitHub, Twitter links -->
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/member1/" target="_blank"><i class="bi-linkedin"></i></a>
+                                <a href="https://github.com/member1" target="_blank"><i class="bi-github"></i></a>
+                                <a href="https://twitter.com/member1" target="_blank"><i class="bi-twitter"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 3 (Add more members as needed) -->
+                        <div class="col-md-4">
+                            <img src="static/image/logo2.png" class="rounded-circle" alt="Team Member 1" width="150" height="150">
+                            <h4>Lawrence Ikhidero</h4>
+                            <p class="text-muted">Software Engineer</p>
+                            <!-- LinkedIn, GitHub, Twitter links -->
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/lawrence.ikhidero/" target="_blank"><i class="bi-linkedin"></i></a>
+                                <a href="https://github.com/lorens247" target="_blank"><i class="bi-github"></i></a>
+                                <a href="https://twitter.com/lorens247" target="_blank"><i class="bi-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!-- GitHub Repository Link -->
+                    <h2 class="text-center">GitHub</h2>
+                    <p class="text-center">
+                        Explore our project on GitHub:
+                        <a href="https://github.com/lorens247/visualDASH" target="_blank">VisualDASH Repository</a>
+                        and GitHub Pages:
+                        <a href="https://lorens247.github.io/visualDASH/" target="_blank">VisualDASH Pages</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+    <!-- Footer-->
+    <footer class="bg-black text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; VisualDASH 2023. All Rights Reserved.</div>
+                <a href="#!">Privacy</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">Team</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">FAQs</a>
+            </div>
+        </div>
+    </footer>
+
 {% endblock %}
