@@ -81,5 +81,5 @@ Upon successfully installing the required Python packages, you can proceed to se
 ## Author
 
 * **Abdi ali** [@username](https://github.com/username)
-* **Ademola Ayinde** [@username](https://github.com/username)
+* **Ademola Ayinde** [@AdemolaAyinde](https://github.com/AdemolaAyinde)
 * **Lawrence Ikhidero** [@lorens247](https://github.com/lorens247)
