@@ -56,6 +56,11 @@ pip freeze > requirements.txt
 Upon successfully installing the required Python packages, you can proceed to set the project file structure and required files as shown below:
 ```
 
+Start the application
+```
+python app.py
+```
+
 ```
 ├── README.md
 ├── app.py
@@ -80,6 +85,6 @@ Upon successfully installing the required Python packages, you can proceed to se
 
 ## Author
 
-* **Abdi ali** [@username](https://github.com/username)
+* **Abdi ali** [@huska20](https://github.com/huska20)
 * **Ademola Ayinde** [@AdemolaAyinde](https://github.com/AdemolaAyinde)
 * **Lawrence Ikhidero** [@lorens247](https://github.com/lorens247)
