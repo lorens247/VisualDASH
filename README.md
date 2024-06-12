@@ -2,7 +2,7 @@
 ## Explore Your World in Real Time.
 
 
-* Welcome to VisualDASH</br>
+* Welcome to VisualDASH </br>
  A visual rich data set with interactive features like zoom and sliders is a comprehensive application.
 .
 
